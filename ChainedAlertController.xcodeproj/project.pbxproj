@@ -12,8 +12,8 @@
 		B23CE77820D1AEDC0007E9B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23CE77620D1AEDC0007E9B6 /* Main.storyboard */; };
 		B23CE77A20D1AEDD0007E9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23CE77920D1AEDD0007E9B6 /* Assets.xcassets */; };
 		B23CE77D20D1AEDD0007E9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B23CE77B20D1AEDD0007E9B6 /* LaunchScreen.storyboard */; };
-		B23CE78B20D1B00B0007E9B6 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE78920D1B00B0007E9B6 /* UIAlertController.swift */; };
-		B23CE78C20D1B00B0007E9B6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE78A20D1B00B0007E9B6 /* UIViewController.swift */; };
+		B23CE78B20D1B00B0007E9B6 /* UIAlertController+ChainedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE78920D1B00B0007E9B6 /* UIAlertController+ChainedAlert.swift */; };
+		B23CE78C20D1B00B0007E9B6 /* UIViewController+ChainedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE78A20D1B00B0007E9B6 /* UIViewController+ChainedAlert.swift */; };
 		B23CE79820D1B23E0007E9B6 /* ChainedAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE79720D1B23E0007E9B6 /* ChainedAlert.swift */; };
 		B23CE79A20D1B2460007E9B6 /* ChainedAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE79920D1B2460007E9B6 /* ChainedAlertAction.swift */; };
 		B23CE79C20D1B26D0007E9B6 /* ChainedAlertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CE79B20D1B26D0007E9B6 /* ChainedAlertTree.swift */; };
@@ -27,8 +27,8 @@
 		B23CE77920D1AEDD0007E9B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23CE77C20D1AEDD0007E9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B23CE77E20D1AEDD0007E9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B23CE78920D1B00B0007E9B6 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
-		B23CE78A20D1B00B0007E9B6 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B23CE78920D1B00B0007E9B6 /* UIAlertController+ChainedAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+ChainedAlert.swift"; sourceTree = "<group>"; };
+		B23CE78A20D1B00B0007E9B6 /* UIViewController+ChainedAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChainedAlert.swift"; sourceTree = "<group>"; };
 		B23CE79720D1B23E0007E9B6 /* ChainedAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedAlert.swift; sourceTree = "<group>"; };
 		B23CE79920D1B2460007E9B6 /* ChainedAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedAlertAction.swift; sourceTree = "<group>"; };
 		B23CE79B20D1B26D0007E9B6 /* ChainedAlertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedAlertTree.swift; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		B23CE78720D1AF560007E9B6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B23CE78920D1B00B0007E9B6 /* UIAlertController.swift */,
-				B23CE78A20D1B00B0007E9B6 /* UIViewController.swift */,
+				B23CE78920D1B00B0007E9B6 /* UIAlertController+ChainedAlert.swift */,
+				B23CE78A20D1B00B0007E9B6 /* UIViewController+ChainedAlert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,8 +193,8 @@
 				B23CE77520D1AEDC0007E9B6 /* ViewController.swift in Sources */,
 				B23CE79A20D1B2460007E9B6 /* ChainedAlertAction.swift in Sources */,
 				B23CE79C20D1B26D0007E9B6 /* ChainedAlertTree.swift in Sources */,
-				B23CE78B20D1B00B0007E9B6 /* UIAlertController.swift in Sources */,
-				B23CE78C20D1B00B0007E9B6 /* UIViewController.swift in Sources */,
+				B23CE78B20D1B00B0007E9B6 /* UIAlertController+ChainedAlert.swift in Sources */,
+				B23CE78C20D1B00B0007E9B6 /* UIViewController+ChainedAlert.swift in Sources */,
 				B23CE77320D1AEDC0007E9B6 /* AppDelegate.swift in Sources */,
 				B23CE79820D1B23E0007E9B6 /* ChainedAlert.swift in Sources */,
 			);

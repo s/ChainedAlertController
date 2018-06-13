@@ -1,5 +1,5 @@
 //
-//  UIAlertController.swift
+//  UIAlertController+ChainedAlert.swift
 //  ChainedAlert
 //
 //  Created by Said Ozcan on 13/06/2018.
